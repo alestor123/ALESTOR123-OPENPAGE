@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 var opn = require('opn')
-
 module.exports = async () => {
   return opn('http://alestor123.github.io/', { wait: false })
 }
